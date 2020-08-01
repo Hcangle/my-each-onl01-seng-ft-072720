@@ -8,7 +8,7 @@ my_each(collection) do |i|
 end
 
 collection = ("4", "5", "6")
-require 'pry'	def my_each(array)
+def my_each(array)
 
   i = 0 
 describe "my_each" do	  while i < array.length 
