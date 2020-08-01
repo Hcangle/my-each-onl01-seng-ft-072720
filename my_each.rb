@@ -9,11 +9,11 @@ end
 
 collection = ("4", "5", "6")
 def my_each(array)
- i = 0 
-describe "my_each" do	  while i < array.length 
-  file = File.read('./my_each.rb')	  yield(array [i])
-
+  i = 0 
+  while i < array.length 
+  yield(array [i])
   i = i + 1 
-  it "does not call on .each" do	end end
+ end 
+end
     expect(file).to_not include(".each")	
   end	  hello (["4", "5", "6"]) do |
