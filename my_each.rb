@@ -9,8 +9,7 @@ end
 
 collection = ("4", "5", "6")
 def my_each(array)
-
-  i = 0 
+ i = 0 
 describe "my_each" do	  while i < array.length 
   file = File.read('./my_each.rb')	  yield(array [i])
 
